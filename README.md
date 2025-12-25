@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Equation Understanding</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: #eaeaea;
+            }
+            h1 {
+                color: black;
+                font-size: 26px;
+                margin-bottom: 60px;
+            }
+            .container {
+                background-color: #f4f4f4;
+                width: 700px;
+                border-left: 2px solid #ccc;
+                border-right: 2px solid #ccc;
+                padding: 20px;
+            }
+            h2 {
+                font-size: 24px;
+                padding: 20px;
+
+            }
+            p {
+                color: black;
+                font-size: 22px;
+                padding: 20px;
+            }
+            h3 {
+                color: black;
+                font-size: 22px;
+                padding: 20px;
+                margin-bottom: 10px;
+            }
+            .span {
+                
+                color: chocolate;
+            }
+            .main {
+                background-color: #ffffff;
+                width: 700px;
+                
+            }
+            .p2 {
+                font-size: 22px;
+                color: chocolate;
+                padding: 20px;
+            }
+            .p3 {
+                color: black;
+                font-size: 22px;
+                margin: 35px;
+            }
+            .container2 {
+                background-color: #eaeaea;
+                width: 700px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                                          
+            }
+            .span1 {
+                font-size: 22px;
+                color: blue;
+                font-weight: bold;
+            }
+            .span2 {
+                color: crimson;
+                font-weight: bold;
+                font-size: 22px;
+            }
+            .span3 {
+                color: green;
+                font-weight: bold;
+                font-size: 22px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Понимание уравнения</h1>
+        <div class="container">
+            <h2>Что такое уравнение?</h2>
+            <p>Уравнение это равенство которое имеет неизвестное число. Неизвестное число в уравнениях указывается латинскими буквами (x, y, z, k, c, a...)</p>
+            <h2>Пример уравнения:</h2> 
+            <p>x + 5 = 10; <br>y + 8 = 15; <br>z - 45 = 16 
+            </p>
+            <h2> Вот где ещё нужно уравнение:</h2>
+            <p>Уравнение нужно: в геометрии, в физики, в алгебре, в астрономии, в  астрофизике и.т.д</p>
+            <h2>Как решать уравнение?</h2>
+            <h3>Тип 1:</h3>
+            <p><span class="span">x + 5 = 10:</span></p>
+            <main class="main">
+                <h3>Объяснение:</h3>
+                <p class="p2">Чтобы решать уравнение с одним неизвестним числом, нужно перевести число которое находится слева от знака равенство(=) направо и при этом заменить его знак на противоположное.</p>                
+            </main>
+                <h3>Решение: </h3>
+                <div class="container2">
+                    <p class="p3">a) x + 7 = 12<br>x = 12 - 5<br>x = 5</p>
+                    <p class="p3">b) x - 7 = 3<br>x = 3 + 7<br>x = 10</p>
+                    <p class="p3">c) x + 8 = 11<br>x = 11 - 8<br>x = 3</p>
+                </div>                
+                <h2>Задание: </h2>
+                <h3>Решите эти уравнения:</h3>
+                <p>a) x + 5 =10;</p>
+                <p>b) z - 8 = 18;</p>
+                <p>c) y + 8 = 17;</p>
+                <h2>Уравнение в математических задачах:</h2>
+                <div class="container2">
+                    <p>У Саши изначально были несколько яблок число которых является неизвестным. После того как Миша отдал ему 6 яблок, общее количество его яблок стал 12. Найдите число яблок которые были у Саши изначально.</p>
+
+                </div>
+                <h3>Решение:</h3>
+                <div class="main">
+                    <h3>Объяснение:</h3>
+                    <p>Берём неизвестное число как переменное <span class="span3">x</span>. Миша отдал Саше 6 яблок возмём как <span class="span1">+ 6</span>. Общее количество его яблок стало 12 берём как <span class="span2">= 12.</span></p>
+                </div>
+                <h3 class="h3">Получаем: </h3>
+                <p>x + 6 = 12</p>
+                <h3 class="h3">Решаем:</h3>
+                <p>x = 12 - 6<br>x = 6 .    Ответ: 6, значит у Саши изначально были 6 яблок.</p>
+        </div> 
+               
+    </body>
+</html>
